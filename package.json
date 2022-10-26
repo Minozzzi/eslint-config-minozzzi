@@ -1,12 +1,13 @@
 {
-  "name": "eslint-config-minozzzi",
+  "name": "@minozzzi/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "private": false,
+  "description": "ESLint configuration used by github.com/minozzzi.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "repository": {
+    "url": "minozzzi/eslint-config-minozzzi"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Guilherme Minozzi"
 }
