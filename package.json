@@ -6,8 +6,31 @@
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "minozzzi/eslint-config-minozzzi"
+    "url": "git+https://github.com/minozzzi/eslint-config-minozzzi.git"
   },
+  "bugs": {
+    "url": "https://github.com/minozzzi/eslint-config-minozzzi/issues"
+  },
+  "homepage": "https://github.com/minozzzi/eslint-config-minozzzi#readme",
   "keywords": [],
-  "author": "Guilherme Minozzi"
+  "author": "Guilherme Minozzi",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint": "^8.26.0 || ^7.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.10",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.26.0 || ^7.23.0",
+    "typescript": ">=3.3.1"
+  }
 }

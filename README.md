@@ -2,7 +2,15 @@
 
 ## Whats included?
 
--
+- React plugin;
+- React Hooks plugin;
+- Standard config base;
+- Prettier;
+- JSX a11y plugin;
+- Import plugin;
+- @Typescript-eslint plugin;
+
+### And amazing eslint rules!
 
 ## Setup
 
