@@ -40,6 +40,7 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'no-use-before-define': 'off',
     'default-param-last': 'off',
+    'no-useless-constructor': 'off',
     'import/order': [
       'error',
       {
